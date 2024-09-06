@@ -1,0 +1,101 @@
+@use 'variables' as *;
+
+.root {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.nav {
+  z-index: 10000;
+  position: absolute;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  height: 100%;
+  background-color: #FFF;
+  padding: 10px;
+  border-right: solid 2px rgba(0, 0, 0, .1);
+  overflow-y: auto;
+  @include scrollbar();
+
+  & > button,
+  & > div {
+    flex: none;
+  }
+}
+
+.main {
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  padding: 50px;
+  min-height: 100%;
+}
+
+.wrap {
+  border: dashed 2px hsl(var(--nextui-primary));
+  display: flex;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.menu {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  overflow: hidden;
+}
+
+.text {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+.image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.nav_picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_img {
+  max-width: 100%;
+  max-height: 100%;
+}

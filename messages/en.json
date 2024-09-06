@@ -1,0 +1,66 @@
+{
+  "Button": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "backgroundImage": "Register Background",
+    "createImage": "Add Image",
+    "createText": "Add Text",
+    "download": "Download",
+    "designDate": "Date Design",
+    "designWeek": "Week Design",
+    "designContent": "Content Design",
+    "isBoxShadow": "Select Box Shadow",
+    "isDateFormat": "Select Date Format",
+    "isWeekFormat": "Select Week Format",
+    "isFont": "Select Font",
+    "isTextShadow": "Select Text Shadow",
+    "fontItalic": "Italic"
+  },
+  "Navigation": {
+    "designContent": "Content Design",
+    "designDate": "Date Design",
+    "designWeek": "Week Design",
+    "designDateFormat": "Date Format",
+    "designWeekFormat": "Week Format",
+    "font": "Select Font"
+  },
+  "Placeholder": {
+    "content" : "Enter Content"
+  },
+  "Label": {
+    "width": "Width",
+    "height": "Height",
+    "scheduleStart": "Schedule Start",
+    "borderWidth": "Border Width",
+    "borderRadius": "Border Radius",
+    "opacity": "Opacity",
+    "color": "Text Color",
+    "backgroundColor": "Background Color",
+    "borderColor": "Border Color",
+    "fontSize": "Font Size",
+    "padding": "Horizontal Padding",
+    "letterSpacing": "Letter Spacing",
+    "lineHeight": "Line Height",
+    "textShadow": "Enter Text Shadow Manually"
+  },
+  "Tabs": {
+    "common": "Common Settings",
+    "individual": "Individual Settings",
+    "left": "Left",
+    "center": "Center",
+    "right": "Right"
+  },
+  "Move": {
+    "after": "Forward",
+    "befoce": "Backward",
+    "clone": "Clone",
+    "delete": "Delete"
+  },
+  "Example" : {
+    "content": "Schedule"
+  },
+  "Footer" : {
+    "message": "This program was created by Ao's planning and is available for free to everyone.\nAll information is stored in the browser's local storage.",
+    "ao": "Ao : <guidelines></guidelines>"
+  }
+}

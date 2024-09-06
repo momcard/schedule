@@ -1,0 +1,66 @@
+{
+  "Button": {
+    "cancel": "취소",
+    "confirm": "확인",
+    "backgroundImage": "배경 등록",
+    "createImage": "이미지 추가",
+    "createText": "텍스트 추가",
+    "download": "다운로드",
+    "designDate": "날짜 디자인",
+    "designWeek": "요일 디자인",
+    "designContent": "내용 디자인",
+    "isBoxShadow": "박스 그림자 선택",
+    "isDateFormat": "날짜 형식 선택",
+    "isWeekFormat": "요일 형식 선택",
+    "isFont": "글꼴 선택",
+    "isTextShadow": "글자 그림자 선택",
+    "fontItalic": "기울임"
+  },
+  "Navigation": {
+    "designContent": "내용 디자인",
+    "designDate": "날짜 디자인",
+    "designWeek": "요일 디자인",
+    "designDateFormat": "날짜 형식",
+    "designWeekFormat": "날짜 형식",
+    "font": "글꼴 선택"
+  },
+  "Placeholder": {
+    "content" : "내용 입력"
+  },
+  "Label": {
+    "width": "가로",
+    "height": "세로",
+    "scheduleStart": "스케쥴 시작",
+    "borderWidth": "테두리 크기",
+    "borderRadius": "모서리 크기",
+    "opacity": "투명도",
+    "color": "글자색",
+    "backgroundColor": "배경색",
+    "borderColor": "테두리색",
+    "fontSize": "글자 크기",
+    "padding": "좌우 여백",
+    "letterSpacing": "자간 크기",
+    "lineHeight": "행간 크기",
+    "textShadow": "글자 그림자 직접입력"
+  },
+  "Tabs": {
+    "common": "공통 설정",
+    "individual": "개별 설정",
+    "left": "왼쪽",
+    "center": "가운데",
+    "right": "오른쪽"
+  },
+  "Move": {
+    "after": "앞으로",
+    "befoce": "뒤로",
+    "clone": "복제",
+    "delete": "삭제"
+  },
+  "Example" : {
+    "content": "스케쥴"
+  },
+  "Footer" : {
+    "message": "이 프로그램은 아오님의 기획으로 제작되었으며 누구나 무료로 이용할 수 있습니다\n모든 정보는 브라우저 로컬 스토리지에 저장됩니다.",
+    "ao": "아오 : <guidelines></guidelines>"
+  }
+}

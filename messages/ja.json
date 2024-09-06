@@ -1,0 +1,66 @@
+{
+  "Button": {
+    "cancel": "キャンセル",
+    "confirm": "確認",
+    "backgroundImage": "背景登録",
+    "createImage": "画像追加",
+    "createText": "テキスト追加",
+    "download": "ダウンロード",
+    "designDate": "日付デザイン",
+    "designWeek": "曜日デザイン",
+    "designContent": "内容デザイン",
+    "isBoxShadow": "ボックスシャドウ選択",
+    "isDateFormat": "日付形式選択",
+    "isWeekFormat": "曜日形式選択",
+    "isFont": "フォント選択",
+    "isTextShadow": "文字シャドウ選択",
+    "fontItalic": "イタリック"
+  },
+  "Navigation": {
+    "designContent": "内容デザイン",
+    "designDate": "日付デザイン",
+    "designWeek": "曜日デザイン",
+    "designDateFormat": "日付形式",
+    "designWeekFormat": "曜日形式",
+    "font": "フォント選択"
+  },
+  "Placeholder": {
+    "content" : "内容入力"
+  },
+  "Label": {
+    "width": "幅",
+    "height": "高さ",
+    "scheduleStart": "スケジュール開始",
+    "borderWidth": "枠線の太さ",
+    "borderRadius": "角の丸み",
+    "opacity": "透明度",
+    "color": "文字色",
+    "backgroundColor": "背景色",
+    "borderColor": "枠線の色",
+    "fontSize": "文字サイズ",
+    "padding": "左右余白",
+    "letterSpacing": "文字間隔",
+    "lineHeight": "行間",
+    "textShadow": "文字シャドウ直接入力"
+  },
+  "Tabs": {
+    "common": "共通設定",
+    "individual": "個別設定",
+    "left": "左",
+    "center": "中央",
+    "right": "右"
+  },
+  "Move": {
+    "after": "前へ",
+    "befoce": "後ろへ",
+    "clone": "複製",
+    "delete": "削除"
+  },
+  "Example" : {
+    "content": "スケジュール"
+  },
+  "Footer" : {
+    "message": "このプログラムはアオさんの企画で制作され、誰でも無料で利用できます\nすべての情報はブラウザのローカルストレージに保存されます。",
+    "ao": "アオ : <guidelines></guidelines>"
+  }
+}

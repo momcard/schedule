@@ -1,0 +1,24 @@
+[
+  "yyyy-MM-dd",
+  "yyyy/MM/dd",
+  "yyyy.MM.dd.",
+  "yyyy년 MM월 dd일",
+
+  "yy-M-d",
+  "yy/M/d",
+  "yy.M.d.",
+  "yy년 M월 d일",
+
+  "MM-dd",
+  "MM/dd",
+  "MM.dd.",
+  "MM월 dd일",
+
+  "M-d",
+  "M/d",
+  "M.d.",
+  "M월 d일",
+
+  "d",
+  "d일"
+]

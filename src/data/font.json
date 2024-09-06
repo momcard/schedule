@@ -1,0 +1,187 @@
+[
+  {
+    "id": "NotoSansKR",
+    "name": "Noto Sans KR",
+    "weight": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"]
+  },
+  {
+    "id": "NotoSerifKR",
+    "name": "Noto Serif KR",
+    "weight": ["ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"]
+  },
+  {
+    "id": "NanumGothic",
+    "name": "Nanum Gothic",
+    "weight": ["Regular", "Bold", "ExtraBold"]
+  },
+  {
+    "id": "NanumGothicCoding",
+    "name": "Nanum Gothic Coding",
+    "weight": ["Regular", "Bold"]
+  },
+  {
+    "id": "NanumMyeongjo",
+    "name": "Nanum Myeongjo",
+    "weight": ["Regular", "Bold", "ExtraBold"]
+  },
+  {
+    "id": "NanumPenScript",
+    "name": "Nanum Pen Script",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "NanumBrushScript",
+    "name": "Nanum Brush Script",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "IBMPlexSansKR",
+    "name": "IBM Plex Sans KR",
+    "weight": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold"]
+  },
+  {
+    "id": "GothicA1",
+    "name": "Gothic A1",
+    "weight": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"]
+  },
+  {
+    "id": "BlackHanSans",
+    "name": "Black Han Sans",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "DoHyeon",
+    "name": "Do Hyeon",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "Dongle",
+    "name": "Dongle",
+    "weight": ["Light", "Regular", "Bold"]
+  },
+  {
+    "id": "Hahmlet",
+    "name": "Hahmlet",
+    "weight": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"]
+  },
+  {
+    "id": "Sunflower",
+    "name": "Sunflower",
+    "weight": ["Light", "Medium", "Bold"]
+  },
+  {
+    "id": "Gugi",
+    "name": "Gugi",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "GowunDodum",
+    "name": "Gowun Dodum",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "GowunBatang",
+    "name": "Gowun Batang",
+    "weight": ["Regular", "Bold"]
+  },
+  {
+    "id": "HiMelody",
+    "name": "Hi Melody",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "GamjaFlower",
+    "name": "Gamja Flower",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "Gaegu",
+    "name": "Gaegu",
+    "weight": ["Light", "Regular", "Bold"]
+  },
+  {
+    "id": "Dokdo",
+    "name": "Dokdo",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "BlackAndWhitePicture",
+    "name": "Black And White Picture",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "CuteFont",
+    "name": "Cute Font",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "Orbit",
+    "name": "Orbit",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "EastSeaDokdo",
+    "name": "East Sea Dokdo",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "Stylish",
+    "name": "Stylish",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "KirangHaerang",
+    "name": "Kirang Haerang",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "PoorStory",
+    "name": "Poor Story",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "YeonSung",
+    "name": "Yeon Sung",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "SingleDay",
+    "name": "Single Day",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "GasoekOne",
+    "name": "Gasoek One",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "BagelFatOne",
+    "name": "Bagel Fat One",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "Diphylleia",
+    "name": "Diphylleia",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "MoiraiOne",
+    "name": "Moirai One",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "GrandifloraOne",
+    "name": "Grandiflora One",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "SongMyung",
+    "name": "Song Myung",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "Jua",
+    "name": "Jua",
+    "weight": ["Regular"]
+  }
+]

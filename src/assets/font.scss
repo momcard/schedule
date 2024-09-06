@@ -1,0 +1,513 @@
+.font {
+
+  &-NotoSansKR {
+    &Thin {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 100;
+    }
+
+    &ExtraLight {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 800;
+    }
+
+    &Black {
+      font-family: "Noto Sans KR", sans-serif;
+      font-weight: 900;
+    }
+  }
+
+  &-NotoSerifKR {
+
+    &ExtraLight {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 800;
+    }
+
+    &Black {
+      font-family: "Noto Serif KR", serif;
+      font-weight: 900;
+    }
+  }
+
+  &-NanumGothic {
+    &Regular {
+      font-family: "Nanum Gothic", sans-serif;
+      font-weight: 400;
+    }
+
+    &Bold {
+      font-family: "Nanum Gothic", sans-serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Nanum Gothic", sans-serif;
+      font-weight: 800;
+    }
+  }
+
+  &-NanumGothicCoding {
+    &Regular {
+      font-family: "Nanum Gothic Coding", monospace;
+      font-weight: 400;
+    }
+
+    &Bold {
+      font-family: "Nanum Gothic Coding", monospace;
+      font-weight: 700;
+    }
+  }
+
+  &-NanumMyeongjo {
+    &Regular {
+      font-family: "Nanum Myeongjo", serif;
+      font-weight: 400;
+    }
+
+    &Bold {
+      font-family: "Nanum Myeongjo", serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Nanum Myeongjo", serif;
+      font-weight: 800;
+    }
+  }
+
+  &-NanumPenScript {
+    &Regular {
+      font-family: "Nanum Pen Script", cursive;
+      font-weight: 400;
+    }
+  }
+
+  &-NanumBrushScript {
+    &Regular {
+      font-family: "Nanum Brush Script", cursive;
+      font-weight: 400;
+    }
+  }
+
+  &-GothicA1 {
+    &Thin {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 100;
+    }
+
+    &ExtraLight {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 800;
+    }
+
+    &Black {
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 900;
+    }
+  }
+
+  &-BlackHanSans {
+    &Regular {
+      font-family: "Black Han Sans", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-DoHyeon {
+    &Regular {
+      font-family: "Do Hyeon", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-Dongle {
+    &Light {
+      font-family: "Dongle", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Dongle", sans-serif;
+      font-weight: 400;
+    }
+
+    &Bold {
+      font-family: "Dongle", sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  &-Hahmlet {
+    &Thin {
+      font-family: "Hahmlet", serif;
+      font-weight: 100;
+    }
+
+    &ExtraLight {
+      font-family: "Hahmlet", serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "Hahmlet", serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Hahmlet", serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "Hahmlet", serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "Hahmlet", serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "Hahmlet", serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Hahmlet", serif;
+      font-weight: 800;
+    }
+
+    &Black {
+      font-family: "Hahmlet", serif;
+      font-weight: 900;
+    }
+  }
+
+  &-Sunflower {
+    &Light {
+      font-family: "Sunflower", sans-serif;
+      font-weight: 300;
+    }
+
+    &Medium {
+      font-family: "Sunflower", sans-serif;
+      font-weight: 500;
+    }
+
+    &Bold {
+      font-family: "Sunflower", sans-serif;
+      font-weight: 700;
+    }
+
+  }
+
+  &-Gugi {
+    &Regular {
+      font-family: "Gugi", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-GowunDodum {
+    &Regular {
+      font-family: "Gowun Dodum", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-GowunBatang {
+    &Regular {
+      font-family: "Gowun Batang", serif;
+      font-weight: 400;
+    }
+
+    &Bold {
+      font-family: "Gowun Batang", serif;
+      font-weight: 700;
+    }
+  }
+
+  &-HiMelody {
+    &Regular {
+      font-family: "Hi Melody", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-GamjaFlower {
+    &Regular {
+      font-family: "Gamja Flower", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-Gaegu {
+    &Light {
+      font-family: "Gaegu", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Gaegu", sans-serif;
+      font-weight: 400;
+    }
+
+    &Bold {
+      font-family: "Gaegu", sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  &-Dokdo {
+    &Regular {
+      font-family: "Dokdo", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-BlackAndWhitePicture {
+    &Regular {
+      font-family: "Black And White Picture", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-CuteFont {
+    &Regular {
+      font-family: "Cute Font", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-Orbit {
+    &Regular {
+      font-family: "Orbit", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-EastSeaDokdo {
+    &Regular {
+      font-family: "East Sea Dokdo", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-Stylish {
+    &Regular {
+      font-family: "Stylish", serif;
+      font-weight: 400;
+    }
+  }
+
+  &-KirangHaerang {
+    &Regular {
+      font-family: "Kirang Haerang", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-PoorStory {
+    &Regular {
+      font-family: "Poor Story", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-YeonSung {
+    &Regular {
+      font-family: "Yeon Sung", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-SingleDay {
+    &Regular {
+      font-family: "Single Day", cursive;
+      font-weight: 400;
+    }
+  }
+
+  &-GasoekOne {
+    &Regular {
+      font-family: "Gasoek One", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-BagelFatOne {
+    &Regular {
+      font-family: "Bagel Fat One", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-Diphylleia {
+    &Regular {
+      font-family: "Diphylleia", serif;
+      font-weight: 400;
+    }
+  }
+
+  &-MoiraiOne {
+    &Regular {
+      font-family: "Moirai One", system-ui;
+      font-weight: 400;
+    }
+  }
+
+  &-GrandifloraOne {
+    &Regular {
+      font-family: "Grandiflora One", cursive;
+      font-weight: 400;
+    }
+  }
+
+  &-IBMPlexSansKR {
+    font-family: "IBM Plex Sans KR", sans-serif;
+  }
+
+  &-IBMPlexSansKR {
+    &Thin {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 100;
+    }
+
+    &ExtraLight {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "IBM Plex Sans KR", sans-serif;
+      font-weight: 700;
+    }
+  }
+
+  &-SongMyung {
+    &Regular {
+      font-family: "Song Myung", serif;
+      font-weight: 400;
+    }
+  }
+
+  &-Jua {
+    &Regular {
+      font-family: "Jua", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+}

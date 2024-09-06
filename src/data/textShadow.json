@@ -1,0 +1,32 @@
+[
+  {
+    "backgroundColor": "#000000",
+    "color": "#006FEE",
+    "fontSize": 110,
+    "textShadow": "-1px 5px #FFFFFF, 5px 1px #FFFFFF, 5px 5px #FFFFFF, 1px -1px #FFFFFF"
+  },
+  {
+    "backgroundColor": "#FFFFFF",
+    "color": "#FFFFFF",
+    "fontSize": 110,
+    "textShadow": "-1px 5px #7828C8, 5px 1px #7828C8, 5px 5px #7828C8, 1px -1px #7828C8"
+  },
+  {
+    "backgroundColor": "#FFFFFF",
+    "color": "#FFFFFF",
+    "fontSize": 110,
+    "textShadow": "-10px 0px #006FEE, 0px 10px #006FEE, 10px 0px #006FEE, 0px -10px #006FEE"
+  },
+  {
+    "backgroundColor": "#000000",
+    "color": "#006FEE",
+    "fontSize": 32,
+    "textShadow": "-1px 1px #FFFFFF, 1px 1px #FFFFFF, 1px 1px #FFFFFF, 1px -1px #FFFFFF"
+  },
+  {
+    "backgroundColor": "#FFFFFF",
+    "color": "#FFFFFF",
+    "fontSize": 32,
+    "textShadow": "-1px 1px #7828C8, 1px 1px #7828C8, 1px 1px #7828C8, 1px -1px #7828C8"
+  }
+]
