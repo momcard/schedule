@@ -31,11 +31,29 @@ export default function Background() {
 
     return (
         <>
-            <Button color="primary" size="lg" variant="ghost">
-                {t("backgroundImage")}
-                <input ref={fileRef} type="file" accept="image/*" onChange={onSelectFile}
-                       className="z-10 w-full h-full absolute opacity-0"/>
-            </Button>
+            {aoData.backgroundImage &&
+                <div className="w-full flex gap-2">
+                    <Button color="primary" size="lg" variant="ghost" className="grow">
+                        {t("backgroundChange")}
+                        <input ref={fileRef} type="file" accept="image/*" onChange={onSelectFile}
+                               className="z-10 w-full h-full absolute opacity-0 cursor-pointer"/>
+                    </Button>
+                    <Button color="primary" size="lg" variant="ghost" className="grow"
+                            onClick={() => {
+                                setAoData({...aoData, "backgroundImage": ""})
+                            }}>
+                        {t("backgroundDelete")}
+                    </Button>
+                </div>
+            }
+
+            {!aoData.backgroundImage &&
+                <Button color="primary" size="lg" variant="ghost">
+                    {t("backgroundImage")}
+                    <input ref={fileRef} type="file" accept="image/*" onChange={onSelectFile}
+                           className="z-10 w-full h-full absolute opacity-0 cursor-pointer"/>
+                </Button>
+            }
 
         </>
     );

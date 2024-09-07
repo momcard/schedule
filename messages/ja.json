@@ -3,6 +3,8 @@
     "cancel": "キャンセル",
     "confirm": "確認",
     "backgroundImage": "背景登録",
+    "backgroundChange": "背景変更",
+    "backgroundDelete": "背景削除",
     "createImage": "画像追加",
     "createText": "テキスト追加",
     "download": "ダウンロード",
@@ -60,7 +62,7 @@
     "content": "スケジュール"
   },
   "Footer" : {
-    "message": "このプログラムはアオさんの企画で制作され、誰でも無料で利用できます\nすべての情報はブラウザのローカルストレージに保存されます。",
+    "message": "このプログラムはアオさんの企画で制作され、誰でも無料で利用できます。\nすべての情報はブラウザのローカルストレージに保存されます。",
     "ao": "アオ : <guidelines></guidelines>"
   }
 }

@@ -50,7 +50,7 @@ export const configAoItems: TypeItem[] = [
         "height": 100,
         "transform": "translate(980px, 5px)",
         "type": "text",
-        "content": "스케쥴",
+        "content": "스케줄",
         "borderColor": "#006FEE",
         "borderWidth": 0,
         "borderRadius": 0,

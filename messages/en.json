@@ -3,6 +3,8 @@
     "cancel": "Cancel",
     "confirm": "Confirm",
     "backgroundImage": "Register Background",
+    "backgroundChange": "Change Background",
+    "backgroundDelete": "Delete Background",
     "createImage": "Add Image",
     "createText": "Add Text",
     "download": "Download",

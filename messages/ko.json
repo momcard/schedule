@@ -3,6 +3,8 @@
     "cancel": "취소",
     "confirm": "확인",
     "backgroundImage": "배경 등록",
+    "backgroundChange": "배경 교체",
+    "backgroundDelete": "배경 삭제",
     "createImage": "이미지 추가",
     "createText": "텍스트 추가",
     "download": "다운로드",
@@ -30,7 +32,7 @@
   "Label": {
     "width": "가로",
     "height": "세로",
-    "scheduleStart": "스케쥴 시작",
+    "scheduleStart": "스케줄 시작",
     "borderWidth": "테두리 크기",
     "borderRadius": "모서리 크기",
     "opacity": "투명도",
@@ -57,7 +59,7 @@
     "delete": "삭제"
   },
   "Example" : {
-    "content": "스케쥴"
+    "content": "스케줄"
   },
   "Footer" : {
     "message": "이 프로그램은 아오님의 기획으로 제작되었으며 누구나 무료로 이용할 수 있습니다.\n모든 정보는 브라우저 로컬 스토리지에 저장됩니다.",
