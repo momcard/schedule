@@ -59,7 +59,8 @@
     "delete": "Delete"
   },
   "Example" : {
-    "content": "Schedule"
+    "content": "Schedule",
+    "font": "ABC"
   },
   "Footer" : {
     "message": "This program was created by Ao's planning and is available for free to everyone.\nAll information is stored in the browser's local storage.",

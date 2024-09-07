@@ -1,0 +1,22 @@
+[
+  {
+    "id": "NotoSansJP",
+    "name": "Noto Sans JP",
+    "weight": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"]
+  },
+  {
+    "id": "YujiBoku",
+    "name": "Yuji Boku",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "PottaOne",
+    "name": "Potta One",
+    "weight": ["Regular"]
+  },
+  {
+    "id": "DelaGothicOne",
+    "name": "Dela Gothic One",
+    "weight": ["Regular"]
+  }
+]

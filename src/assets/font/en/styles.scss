@@ -1,0 +1,52 @@
+@import "NotoSans/styles.css";
+
+.font {
+
+  &-NotoSans {
+    &Thin {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 100;
+    }
+
+    &ExtraLight {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 800;
+    }
+
+    &Black {
+      font-family: "Noto Sans", sans-serif;
+      font-weight: 900;
+    }
+  }
+
+}

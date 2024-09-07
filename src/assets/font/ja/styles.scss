@@ -1,0 +1,76 @@
+@import "NotoSansJP/styles.css";
+@import "PottaOne/styles.css";
+@import "YujiBoku/styles.css";
+@import "DelaGothicOne/styles.css";
+
+.font {
+
+  &-NotoSansJP {
+    &Thin {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 100;
+    }
+
+    &ExtraLight {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 200;
+    }
+
+    &Light {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 300;
+    }
+
+    &Regular {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 400;
+    }
+
+    &Medium {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 500;
+    }
+
+    &SemiBold {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 600;
+    }
+
+    &Bold {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 700;
+    }
+
+    &ExtraBold {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 800;
+    }
+
+    &Black {
+      font-family: "Noto Sans JP", sans-serif;
+      font-weight: 900;
+    }
+  }
+
+  &-PottaOne {
+    &Regular {
+      font-family: "Potta One", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-YujiBoku {
+    &Regular {
+      font-family: "Yuji Boku", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &-DelaGothicOne {
+    &Regular {
+      font-family: "Dela Gothic One", sans-serif;
+      font-weight: 400;
+    }
+  }
+
+}

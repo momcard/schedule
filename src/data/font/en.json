@@ -1,0 +1,7 @@
+[
+  {
+    "id": "NotoSans",
+    "name": "Noto Sans",
+    "weight": ["Thin", "ExtraLight", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"]
+  }
+]

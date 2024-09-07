@@ -1,0 +1,8 @@
+/* single-day-regular - korean */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Single Day';
+    font-style: normal;
+    font-weight: 400;
+    src: url('single-day-v17-korean-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

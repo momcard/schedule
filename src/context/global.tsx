@@ -5,8 +5,10 @@ import {TypeData} from "@/types/data";
 import {TypeItem} from "@/types/item";
 import {configAoData, configAoItems, configAoSchedule, configDesignDate, configDesignWeek} from "@/config/schedule";
 import {TypeDesignItem, TypeSchedule} from "@/types/schedule";
+import {TypeFont} from "@/types/font.ts";
 
 interface IGlobalContextProps {
+    fontList: TypeFont[];
     setAoUpdate: (value: any) => void;
 
     aoData: any;
@@ -27,6 +29,8 @@ interface IGlobalContextProps {
 }
 
 export const GlobalContext = React.createContext<IGlobalContextProps>({
+    fontList: [],
+
     setAoUpdate: () => {
     },
 
@@ -55,10 +59,13 @@ export const GlobalContext = React.createContext<IGlobalContextProps>({
 
 export const useGlobalContext = () => useContext(GlobalContext);
 
-export const GlobalContextProvider = ({locale, children}: {
+export const GlobalContextProvider = ({locale, fontList, children}: {
     locale: string;
+    fontList: any;
     children: React.ReactNode;
 }) => {
+
+   // const [fontList, setFontList] = useState<TypeFont[]>(fontList)
 
     const [aoData, setAoData] = useState<TypeData>({...configAoData, locale: locale})
     const [aoSchedule, setCurrentAoSchedule] = useState<TypeSchedule[]>(configAoSchedule)
@@ -216,6 +223,8 @@ export const GlobalContextProvider = ({locale, children}: {
     return (
         <GlobalContext.Provider
             value={{
+                fontList: fontList,
+
                 setAoUpdate: setAoUpdate,
 
                 aoData: aoData,

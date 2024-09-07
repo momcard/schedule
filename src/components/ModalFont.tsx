@@ -6,20 +6,21 @@ import {Button, Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, useDis
 import {useGlobalContext} from "@/context/global";
 import {useModalContext} from "@/context/modal";
 import {TypeFont} from "@/types/font";
-import fontData from "@/data/font.json";
 
 export default function ModalFont({isModal}: {
     isModal: boolean;
 }) {
 
     const tNavigation = useTranslations('Navigation');
-    const {setAoUpdate} = useGlobalContext();
+    const tExample = useTranslations('Example');
+    const {fontList, setAoUpdate} = useGlobalContext();
     const {modalData, setModalData} = useModalContext();
     const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
     useEffect(() => {
 
         if (isModal) {
+
             onOpen()
         }
 
@@ -50,7 +51,7 @@ export default function ModalFont({isModal}: {
                         <ModalHeader className="flex flex-col gap-1">{tNavigation('font')}</ModalHeader>
                         <ModalBody>
                             <div className="flex flex-col gap-10">
-                                {fontData.map((font: TypeFont) => (
+                                {fontList.map((font: TypeFont) => (
                                     <div key={font.id} className="flex flex-col gap-2">
                                         <h2>{font.name}</h2>
                                         <div className="flex flex-wrap gap-2">
@@ -71,7 +72,7 @@ export default function ModalFont({isModal}: {
                                                                 onClose()
                                                             }}
                                                         >
-                                                            가나다 {weight}
+                                                            {tExample('font')} {weight}
                                                         </div>
                                                     </div>
                                                 )

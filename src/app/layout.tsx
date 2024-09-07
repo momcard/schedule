@@ -8,6 +8,7 @@ import {ContainerContextProvider} from "@/context/container";
 
 import "@/assets/globals.scss";
 import styles from '@/assets/styles.module.scss'
+import {TypeFont} from "@/types/font.ts";
 
 export const metadata: Metadata = {
     title: "AO",
@@ -22,13 +23,16 @@ export default async function RootLayout({children, nav, dashboard}: Readonly<{
 
     const locale = await getLocale();
     const messages = await getMessages();
+    const fontList: TypeFont[] = require(`@/data/font/${locale}.json`)
+
+    import(`@/assets/font/${locale}/styles.scss`)
 
     return (
         <html lang={locale} className='light'>
         <body className={`font-NotoSansKRRegular`}>
         <Providers>
             <NextIntlClientProvider messages={messages}>
-                <GlobalContextProvider locale={locale}>
+                <GlobalContextProvider locale={locale} fontList={fontList}>
                     <ModalContextProvider>
                         <ContainerContextProvider>
                             <div className={styles.root}>

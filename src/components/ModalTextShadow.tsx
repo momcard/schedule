@@ -12,7 +12,6 @@ import {
 import {useGlobalContext} from "@/context/global";
 import textShadowData from "@/data/textShadow.json";
 
-import styles from "@/assets/styles.module.scss";
 import {TypeTextShadow} from "@/types/design";
 import {useModalContext} from "@/context/modal";
 
