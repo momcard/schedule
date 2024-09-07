@@ -10,7 +10,7 @@ export const configAoData: TypeData = {
     zIndex: 1000,
     width: 1280,
     height: 720,
-    backgroundImage: "none",
+    backgroundImage: "",
     scheduleStart: todayWeek(),
     scheduleDateFormat: "M/d",
     scheduleWeekFormat: "(eee)",

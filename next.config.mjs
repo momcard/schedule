@@ -56,11 +56,11 @@ const nextConfig = {
         let buildId;
 
         try {
-            const data = await fs.readFileSync(__dirname  + '/.git/refs/remotes/origin/master', 'utf8');
+            const data = await fs.readFileSync(__dirname  + '/.git/refs/remotes/origin/main', 'utf8');
             buildId = String(data).trim();
         } catch (err) {
             //console.error(err);
-            buildId = Math.random().toString(36).substr(2,11)
+            buildId = Math.random().toString(36).substring(2,11)
         }
 
         console.log("generateBuildId", buildId)

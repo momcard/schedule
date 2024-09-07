@@ -28,29 +28,26 @@ export default function Page() {
 
     return (
         <>
+            {!mount &&
+                <div className="w-full h-full flex justify-center items-center">
+                    <Spinner size="lg"/>
+                </div>
+            }
             <div className={styles.wrap}>
-                <div ref={containerRef} className={`container ${styles.container}`} style={{
-                    width: aoData.width,
-                    height: aoData.height,
-                    backgroundImage: `url('${aoData.backgroundImage}')`
-                }}>
-
-                    {!mount &&
-                        <div className="w-full h-full flex justify-center items-center">
-                            <Spinner size="lg"/>
-                        </div>
-                    }
-
-                    {mount &&
-                        <>
+                {mount &&
+                    <>
+                        <div ref={containerRef} className={`container ${styles.container}`} style={{
+                            width: aoData.width,
+                            height: aoData.height,
+                            backgroundImage: `${aoData.backgroundImage ? `url(${aoData.backgroundImage})` : `none`}`
+                        }}>
                             <ItemDate/>
                             <ItemText/>
                             <ItemImage/>
                             <Events/>
-                        </>
-                    }
-
-                </div>
+                        </div>
+                    </>
+                }
             </div>
             <div className="flex flex-col gap-1 absolute right-0 bottom-0 p-5">
                 <div className="text-small text-right whitespace-pre text-gray-400">
@@ -58,7 +55,8 @@ export default function Page() {
                 </div>
                 <div className="text-small text-right whitespace-pre text-gray-500">
                     {tFooter.rich('ao', {
-                        guidelines: () => <a href="https://bj.afreecatv.com/vhzaoadmiral" target="_blank" className="text-sm">https://bj.afreecatv.com/vhzaoadmiral</a>
+                        guidelines: () => <a href="https://bj.afreecatv.com/vhzaoadmiral" target="_blank"
+                                             className="text-sm">https://bj.afreecatv.com/vhzaoadmiral</a>
                     })}
                 </div>
             </div>
