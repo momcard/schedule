@@ -21,7 +21,7 @@ export default function Control() {
                     classNames={{
                         base: "w-full",
                     }}
-                    name="width"
+                    name={`width`}
                     value={aoData?.width || ""}
                     onChange={(e) => setAoData({...aoData, [e.target.name]: Number(e.target.value)})}
                 />
@@ -32,7 +32,7 @@ export default function Control() {
                     classNames={{
                         base: "w-full",
                     }}
-                    name={t('height')}
+                    name={`height`}
                     value={aoData?.height || ""}
                     onChange={(e) => setAoData({...aoData, [e.target.name]: Number(e.target.value)})}
                 />
