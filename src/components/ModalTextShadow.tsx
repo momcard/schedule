@@ -62,7 +62,7 @@ export default function ModalTextShadow({isModal}: {
 
                                 {textShadowData.map((row: TypeTextShadow, key: number) => {
                                     return (
-                                        <div key={key} className="flex flex-col gap-2 rounded-2xl p-3 cursor-pointer bg-gray-300"
+                                        <div key={key} className="flex flex-col rounded-2xl text-center justify-center content-center cursor-pointer bg-gray-300 pt-3 pb-7"
                                              onClick={() => {
                                                  setAoUpdate({
                                                      type: modalData.type,
@@ -76,14 +76,10 @@ export default function ModalTextShadow({isModal}: {
                                             <div style={{
                                                 letterSpacing: 10,
                                                 color: row.color,
-                                                fontSize: row.fontSize,
                                                 textShadow: row.textShadow
-                                            }} className={styles['font-NotoSansKRBlack']}
+                                            }} className={'text-8xl font-NotoSansKRBlack'}
                                             >
                                                 {tExample('content')}
-                                            </div>
-                                            <div className="flex bg-gray-500 rounded-2xl p-3 text-white break-all">
-                                                {row.textShadow}
                                             </div>
                                         </div>
                                     )

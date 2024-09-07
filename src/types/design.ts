@@ -24,6 +24,5 @@ export interface TypeDesign {
 export interface TypeTextShadow {
     backgroundColor: string;
     color: string;
-    fontSize: number;
     textShadow: string;
 }
