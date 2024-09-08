@@ -9,7 +9,7 @@ import {hexToRGB} from "@/utils/color";
 import styles from '@/assets/styles.module.scss'
 import {justifyContent} from "@/utils/design";
 
-export default function ItemText() {
+export default function Content() {
 
     const t = useTranslations('Placeholder');
     const {aoItems} = useGlobalContext();

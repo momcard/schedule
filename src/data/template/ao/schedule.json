@@ -1,0 +1,93 @@
+[
+  {
+    "id": 1,
+    "content": "쉬는시간",
+    "zIndex": 1000,
+    "width": 300,
+    "height": 50,
+    "transform": "translate(213px, 30px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#b3b3b3",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  },
+  {
+    "id": 2,
+    "content": "잡담방송",
+    "zIndex": 1000,
+    "width": 300,
+    "height": 50,
+    "transform": "translate(262px, 127px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#48567b",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  },
+  {
+    "id": 3,
+    "content": "안보고 캐릭터 그리기",
+    "zIndex": 1000,
+    "width": 500,
+    "height": 50,
+    "transform": "translate(215px, 229px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#48567b",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  },
+  {
+    "id": 4,
+    "content": "노래 공부를 해 보자",
+    "zIndex": 1000,
+    "width": 500,
+    "height": 50,
+    "transform": "translate(265px, 335px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#48567b",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  },
+  {
+    "id": 5,
+    "content": "쉬는시간",
+    "zIndex": 1000,
+    "width": 300,
+    "height": 50,
+    "transform": "translate(231px, 433px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#b3b3b3",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  },
+  {
+    "id": 6,
+    "content": "김아오 참치단 커머셜 데이",
+    "zIndex": 1000,
+    "width": 600,
+    "height": 50,
+    "transform": "translate(267px, 533px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#48567b",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  },
+  {
+    "id": 7,
+    "content": "잡담방송",
+    "zIndex": 1000,
+    "width": 300,
+    "height": 50,
+    "transform": "translate(223px, 633px)",
+    "textAlign": "left",
+    "fontSize": 46,
+    "color": "#48567b",
+    "fontItalic": true,
+    "fontName": "NotoSansKRBlack"
+  }
+]

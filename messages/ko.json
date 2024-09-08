@@ -1,4 +1,9 @@
 {
+  "Error": {
+    "template": "템플릿을 선택해 주세요.",
+    "title": "오류",
+    "message": "오류가 발생했습니다."
+  },
   "Button": {
     "cancel": "취소",
     "confirm": "확인",
@@ -16,7 +21,8 @@
     "isWeekFormat": "요일 형식 선택",
     "isFont": "글꼴 선택",
     "isTextShadow": "글자 그림자 선택",
-    "fontItalic": "기울임"
+    "fontItalic": "기울임",
+    "template": "템플릿 선택"
   },
   "Navigation": {
     "designContent": "내용 디자인",
@@ -57,6 +63,12 @@
     "befoce": "뒤로",
     "clone": "복제",
     "delete": "삭제"
+  },
+  "Template": {
+    "confirm": {
+      "title": "템플릿 변경",
+      "content": "입력한 내용이 모두 초기화 됩니다."
+    }
   },
   "Example" : {
     "content": "스케줄",

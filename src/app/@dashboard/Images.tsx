@@ -7,7 +7,7 @@ import {hexToRGB} from "@/utils/color";
 
 import styles from '@/assets/styles.module.scss'
 
-export default function ItemImage() {
+export default function Images() {
 
     const {aoItems} = useGlobalContext();
     const itemRef = useRef<null[] | HTMLElement[]>([]);

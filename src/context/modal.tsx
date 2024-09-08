@@ -8,7 +8,7 @@ interface IModalContextProps {
     setModalData: (value: any) => void;
 }
 
-export const ModalContext = React.createContext<IModalContextProps>({
+const ModalContext = React.createContext<IModalContextProps>({
     modalData: {},
     setModalData: () => {
     },

@@ -1,5 +1,3 @@
-'use client'
-
 import React, {useEffect} from "react";
 import {useTranslations} from "next-intl";
 import {
@@ -16,7 +14,7 @@ import {ko, ja} from "date-fns/locale";
 
 export default function ModalWeekFormat({isWeekFormat, setIsWeekFormat}: {
     isWeekFormat: boolean;
-    setIsWeekFormat: any;
+    setIsWeekFormat: (v: boolean) => void;
 }) {
 
     const tNavigation = useTranslations('Navigation');

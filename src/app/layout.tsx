@@ -5,10 +5,12 @@ import {Providers} from "@/app/providers";
 import {GlobalContextProvider} from "@/context/global";
 import {ModalContextProvider} from "@/context/modal";
 import {ContainerContextProvider} from "@/context/container";
+import {AlertProvider} from "@/context/alert";
+import {ConfirmProvider} from "@/context/confirm";
+import {TypeFont} from "@/types/font.ts";
 
 import "@/assets/globals.scss";
 import styles from '@/assets/styles.module.scss'
-import {TypeFont} from "@/types/font.ts";
 
 export const metadata: Metadata = {
     title: "AO",
@@ -33,17 +35,21 @@ export default async function RootLayout({children, nav, dashboard}: Readonly<{
         <Providers>
             <NextIntlClientProvider messages={messages}>
                 <GlobalContextProvider locale={locale} fontList={fontList}>
-                    <ModalContextProvider>
-                        <ContainerContextProvider>
-                            <div className={styles.root}>
-                                {nav}
-                                <main className={`main ${styles.main}`}>
-                                    {dashboard}
-                                    {children}
-                                </main>
-                            </div>
-                        </ContainerContextProvider>
-                    </ModalContextProvider>
+                    <ConfirmProvider>
+                        <AlertProvider>
+                            <ModalContextProvider>
+                                <ContainerContextProvider>
+                                    <div className={styles.root}>
+                                        {nav}
+                                        <main className={`main ${styles.main}`}>
+                                            {dashboard}
+                                            {children}
+                                        </main>
+                                    </div>
+                                </ContainerContextProvider>
+                            </ModalContextProvider>
+                        </AlertProvider>
+                    </ConfirmProvider>
                 </GlobalContextProvider>
             </NextIntlClientProvider>
         </Providers>

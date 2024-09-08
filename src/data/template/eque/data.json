@@ -1,0 +1,10 @@
+{
+  "width": 1280,
+  "height": 720,
+  "backgroundImage": "",
+  "scheduleDateFormat": "MM/dd",
+  "scheduleWeekFormat": "(eee)",
+  "scheduleDateDesign": "common",
+  "scheduleWeekDesign": "common",
+  "scheduleContentDesign": "common"
+}

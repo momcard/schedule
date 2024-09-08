@@ -28,7 +28,7 @@ interface IGlobalContextProps {
     setDesignWeek: (value: any) => void;
 }
 
-export const GlobalContext = React.createContext<IGlobalContextProps>({
+const GlobalContext = React.createContext<IGlobalContextProps>({
     fontList: [],
 
     setAoUpdate: () => {

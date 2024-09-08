@@ -7,11 +7,14 @@ import Schedule from "@/app/@nav/Schedule";
 import Items from "@/app/@nav/Items";
 
 import styles from '@/assets/styles.module.scss'
+import Template from "@/app/@nav/Template.tsx";
 
 export default function Page() {
 
     return (
         <nav className={styles.nav}>
+
+            <Template/>
 
             <Download/>
 

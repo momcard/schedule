@@ -1,4 +1,9 @@
 {
+  "Error": {
+    "template": "Please select a template.",
+    "title": "Error",
+    "message": "An error has occurred."
+  },
   "Button": {
     "cancel": "Cancel",
     "confirm": "Confirm",
@@ -16,7 +21,8 @@
     "isWeekFormat": "Select Week Format",
     "isFont": "Select Font",
     "isTextShadow": "Select Text Shadow",
-    "fontItalic": "Italic"
+    "fontItalic": "Italic",
+    "template": "Select Template"
   },
   "Navigation": {
     "designContent": "Content Design",
@@ -27,7 +33,7 @@
     "font": "Select Font"
   },
   "Placeholder": {
-    "content" : "Enter Content"
+    "content": "Enter Content"
   },
   "Label": {
     "width": "Width",
@@ -58,11 +64,17 @@
     "clone": "Clone",
     "delete": "Delete"
   },
-  "Example" : {
-    "content": "Schedule",
-    "font": "ABC"
+  "Template": {
+    "confirm": {
+      "title": "Change Template",
+      "content": "All entered content will be reset."
+    }
   },
-  "Footer" : {
+  "Example": {
+    "content": "Schedule",
+    "font": "Font Example"
+  },
+  "Footer": {
     "message": "This program was created by Ao's planning and is available for free to everyone.\nAll information is stored in the browser's local storage.",
     "ao": "Ao : <guidelines></guidelines>"
   }

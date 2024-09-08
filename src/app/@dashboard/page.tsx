@@ -5,9 +5,9 @@ import {Spinner} from "@nextui-org/react";
 import {useGlobalContext} from "@/context/global";
 import {useContainerContext} from "@/context/container";
 
-import ItemDate from "@/app/@dashboard/itemDate";
-import ItemText from "@/app/@dashboard/itemText";
-import ItemImage from "@/app/@dashboard/itemImage";
+import Schedule from "@/app/@dashboard/Schedule.tsx";
+import Content from "@/app/@dashboard/Content.tsx";
+import Images from "@/app/@dashboard/Images.tsx";
 import Events from "@/app/@dashboard/Events";
 
 import styles from '@/assets/styles.module.scss'
@@ -41,9 +41,9 @@ export default function Page() {
                             height: aoData.height,
                             backgroundImage: `${aoData.backgroundImage ? `url(${aoData.backgroundImage})` : `none`}`
                         }}>
-                            <ItemDate/>
-                            <ItemText/>
-                            <ItemImage/>
+                            <Schedule/>
+                            <Content/>
+                            <Images/>
                             <Events/>
                         </div>
                     </>

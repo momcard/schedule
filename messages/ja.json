@@ -1,4 +1,9 @@
 {
+  "Error": {
+    "template": "テンプレートを選択してください。",
+    "title": "エラー",
+    "message": "エラーが発生しました。"
+  },
   "Button": {
     "cancel": "キャンセル",
     "confirm": "確認",
@@ -16,7 +21,8 @@
     "isWeekFormat": "曜日形式選択",
     "isFont": "フォント選択",
     "isTextShadow": "文字シャドウ選択",
-    "fontItalic": "イタリック"
+    "fontItalic": "イタリック",
+    "template": "テンプレート選択"
   },
   "Navigation": {
     "designContent": "内容デザイン",
@@ -27,7 +33,7 @@
     "font": "フォント選択"
   },
   "Placeholder": {
-    "content" : "内容入力"
+    "content": "内容入力"
   },
   "Label": {
     "width": "幅",
@@ -58,11 +64,17 @@
     "clone": "複製",
     "delete": "削除"
   },
-  "Example" : {
-    "content": "スケジュール",
-    "font": "あいう"
+  "Template": {
+    "confirm": {
+      "title": "テンプレート変更",
+      "content": "入力した内容がすべて初期化されます。"
+    }
   },
-  "Footer" : {
+  "Example": {
+    "content": "スケジュール",
+    "font": "カナダ"
+  },
+  "Footer": {
     "message": "このプログラムはアオさんの企画で制作され、誰でも無料で利用できます。\nすべての情報はブラウザのローカルストレージに保存されます。",
     "ao": "アオ : <guidelines></guidelines>"
   }

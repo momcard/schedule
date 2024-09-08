@@ -1,5 +1,3 @@
-'use client'
-
 import React, {useEffect} from "react";
 import {useTranslations} from "next-intl";
 import {
@@ -14,7 +12,7 @@ import dateFormatData from "@/data/dateFormat.json";
 
 export default function ModalDateFormat({isDateFormat, setIsDateFormat}: {
     isDateFormat: boolean;
-    setIsDateFormat: any;
+    setIsDateFormat: (v: boolean) => void;
 }) {
 
     const tNavigation = useTranslations('Navigation');

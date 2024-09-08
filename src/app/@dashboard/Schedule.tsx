@@ -13,7 +13,7 @@ import {hexToRGB} from "@/utils/color";
 import styles from '@/assets/styles.module.scss'
 import {justifyContent} from "@/utils/design";
 
-export default function ItemDate() {
+export default function Schedule() {
 
     const t = useTranslations('Placeholder');
     const {aoData, aoSchedule, designDate, designWeek} = useGlobalContext();
